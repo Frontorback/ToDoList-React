@@ -1,0 +1,55 @@
+.note-area li{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    list-style-type: none;
+    
+    width: 80%;
+    margin: 2% 10%;
+    align-items: center;
+    
+}
+small{
+    margin-left: 1rem ;
+}
+.note-area div{
+    margin-left: 1rem ;
+
+}
+
+.note-area ul{
+    margin: 0%;
+    padding: 0%;
+}
+.Close-btn{
+    border:1px solid red;
+    border-radius: 1px;
+    color:red;
+
+    margin:1%;
+}
+.Close-btn:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: blueviolet;
+}
+
+.note{
+    opacity: 0;
+}
+.note-enter-active{
+    
+    animation: note 800ms forwards;
+}
+.note-exit-active{
+    
+    animation: note 400ms alternate-reverse;
+}
+@keyframes note{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

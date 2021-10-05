@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 2%;
+}
+.nav a{
+    text-decoration: none;
+    color: wheat;
+    padding-left: 10px;
+}
+.nav a.active{
+    color:red   
+} 
+
+.nav a:hover{
+    color:white
+}

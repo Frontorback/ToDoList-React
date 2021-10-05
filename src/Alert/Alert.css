@@ -1,0 +1,37 @@
+.Alert-green{
+    padding: 1.5%;
+    text-align: center;
+    background-color: #04ff00ab;
+    color: red;
+    font-size:x-large;
+}
+.Alert-yellow{
+    padding: 1.5%;
+    text-align: center;
+    background-color: #ffd400d1;
+    color: red;
+    font-size:x-large;
+
+}
+.Alert-red {
+    padding: 1.5%;
+    text-align: center;
+    background-color: #fd2205c7;
+    color: white;
+    font-size:x-large;
+
+}
+
+.alert-enter{
+    opacity: 0;
+}
+.alert-enter-active{
+    transition: opacity 500ms ease-out;
+    opacity: 1;
+
+}
+.alert-exit-active{
+    transition: opacity 300ms ease-out;
+    opacity: 0;
+
+}

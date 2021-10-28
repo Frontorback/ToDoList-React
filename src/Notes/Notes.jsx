@@ -6,11 +6,11 @@ import { ProvideAxios } from "./Reducer";
 const Notes = () => {
 
     const { title, deleteNotes } = useContext(ProvideAxios)
-    const ArrState = Object.values(title)
+    
     return (
         <TransitionGroup component="div" className='note-area'>
 
-            {ArrState.map(note => (
+            {title.map(note => (
                 <CSSTransition
                     timeout={400}
                     classNames='note'
